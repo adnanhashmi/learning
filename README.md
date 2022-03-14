@@ -1,2 +1,1 @@
-# learning
-Free Learning Resources
+# Free Learning Resources
