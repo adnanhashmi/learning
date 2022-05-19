@@ -63,31 +63,32 @@ To recap the section, there are three P's namely the platform comprising differe
 The various tools are summed up as Azure Synapse Analytics.
  
 As part of this overview session, now I will take a look at Azure Synapse Analytics, the platform. 
- 
+
 You will mainly be interacting with Synapse Studio when using Azure Synapse Analytics, which offers the user experience for the analytics platform. 
- 
+
 The navigation in Synapse Studio offers a way to get to six different pages within the Azure Synapse Analytics workspace: Home, Data, Develop, Integrate, Monitor and Manage.
- 
-The Data section in Synapse Studio allows creation of different data sources to store data, namely Azure Data Lake Studio or ADLS, SQL, Azure Data Explorer, Cosmos DB, and other data sources. All these data sources are external to the platform. Also if a data source is outside of Azure Synapse Analytics, it can be accessed using Synapse Studio.
- 
-Regardless of whether a data source is internal or external, it can be accessed via Synapse Studio using Linked Services. 
- 
-Next, we will be looking at the Develop section. 
- 
+
+The Data section or tab in Synapse Studio allows creation of different data sources to store data, namely Azure Data Lake Storage or ADLS, SQL, Azure Data Explorer, Cosmos DB, and other data sources. All these data sources are either internal or external to the Azure Synapse Analytics platform. Even if the data source is external, it can still be accessed using Synapse Studio.
+
+Whether a data source is internal or external, it is allowed access via Linked Services. 
+
+Next, we will be looking at the Develop tab. 
+
 In Develop, users have the ability to write source code to access data stored in the various data sources. 
-Users can either write cold as a SQL script, KQL or Kusto Query Language, a Notebook, as a Data flow, or an Apache Spark Job Definition. Other code artifacts can be imported from the local hard drive or from an online gallery. 
- 
-After Develop, there is an Integrate section in Azure Synapse Analytics. 
- 
+
+Users can either write code as a SQL script, KQL or Kusto Query Language, a Notebook, as a Data flow, or an Apache Spark Job Definition. Other code artifacts can be imported from the local hard drive or from an online gallery. 
+
+After Develop, there is an Integrate section or tab in Synapse Analytics. 
+
 Integrate is mainly used for moving data from one data source to another. Azure Synapse Analytics users can develop a pipeline using Azure Data Factory or ADF. They can also use a Copy Data tool. Other data movement artifacts can be imported from either the local hard drive or from a gallery. 
- 
+
 We will lump Monitor and Manage together. 
- 
-These sections allow interaction with Analytics Pools, Connections, Runtimes, and Security.
- 
-The Home section is just an easy way for users to access various links that are covered in other sections already. 
- 
-In the Home section, developers have links to create a SQL script, KQL script, Notebook, Data flows, Apache Spark Job Definition, or a Pipeline. Users also have a link to import various artifacts from their local drive. 
+
+These sections or tabs allow interaction with Analytics Pools, Connections, Runtimes, and Security.
+
+The Home tab is just an easy way for users to access various links that are covered in other sections or tabs already. 
+
+In the Home tab, developers have links to create a SQL script, a KQL script, a Notebook, a Data flows, an Apache Spark Job Definition, or a Pipeline. Users also have a link to import various artifacts from their local drive. 
  
 To recap, Azure Synapse Analytics allow users, regardless of their role, to access a single tool to create different resources for their analytics workloads.
  
