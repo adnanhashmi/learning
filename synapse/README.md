@@ -2,7 +2,7 @@
 
 ### Overview
 
-Video: https://www.bing.com
+Video: [YouTube](https://youtu.be/WMKvBAPdhJQ)
 
 Slides: [GitHub](https://github.com/adnanhashmi/learning/blob/main/synapse/01-Overview.pdf)
 
