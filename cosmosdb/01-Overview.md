@@ -6,7 +6,7 @@ Welcome to this overview of Azure Cosmos DB.
 
 A typical web application comprises of web pages which access a database. Regardless of what the environment is, the database requires manual maintenance. Also, developers create additional technical capabilities for caching data, partitioning tables, indexing the records, geo replication, disaster recovery, analytics, encryption, and security.
 
-Azure Cosmos DB is like any other database, but all the capabilities I mentioned are already inclded in the database and do not need to be re-created.  
+Azure Cosmos DB is like any other database, but all the capabilities I mentioned are already inclided in the database and do not need to be re-created.  
 
 Let's take a closer look at the Cosmos DB platform. 
 
@@ -16,23 +16,36 @@ An Analytical database stores analytical or reporting data also known as Online 
 Lastly, IoT devices send Stearming data to a database that can then be used to generate insights and machine learning predictions.
 
 There are different examples for each database workload. However, you will notice that Cosmos DB is mentioned in each of the three categories. That means that Cosmos DB can be used for any type of database work, and that is a huge advantage that Cosmos DB has over other database products.
+
 Which essentially means that Cosmos DB can be used for every database workload.
+
 When you use any database, you get a server where you can create one or more databases.
 Each database has one or more tables, and each table contains one or more rows.
+
 As in other databases, you get an account when you create a Cosmos DB using the Azure portal, and multiple database instances can exist under that account.
 To access a Cosmos DB database instance, you have to use the database's host URI or uniform resource identifier.
 For that database instance, you can create one or more containers.
 Each container has one or more items. An item is just a JSON document, JSON stands for JavaScript Object Notation. This contrasts with a row or record in a typical SQL Server or Oracle database table which can be accessed using SQL.
+
 To recap this section, one of the topics discussed was Database Workloads, chiefly Transactional, Analytical, and IoT.
 The second topic was the Cosmos DB Database Architecture, which comprises of an Account, one or more Databases, Containers, and a JSON document which is a record or row of data.
+
 After Platform, we will look at the individual capabilities of Cosmos DB that are available to application developers.
+
 As the Cosmos DB database instance undergoes maintenance in the Azure cloud, it must be partitioned at the time of creation, which tunes its performance as it fills with data. A notable capability of Cosmos DB is indexing, followed by geo-replication, disaster recovery, analytics, encryption, security, and caching.
+
 The first capability we will address has to do with database maintenance.
+
 A typical database is created on a server manually and both must be maintained by a system admin and a database administrator or DBA, a cumbersome task indeed.
+
 Cosmos DB, on the other hand, is maintained behind the scenes after it is provisioned in Azure, requiring only developers to interact with it.
+
 Next aspect is tuning and partitioning.
+
 When a new container is created in Cosmos DB, you have to specify a partition key. In the example on your screen, 'City' is specified as the partition key. The partition key is used to determine which partition the JSON document is stored in, and the way Cosmos DB does it by calculating the Hash value of the key.
+
 As an example, suppose a JSON document is to be stored in a Cosmos DB container. The database calculates the Hash of the partition key value, in this case 'Karachi' and stores it in partition one. 
+
 Similarly, the Hash value of City 'Lahore' causes the record to be stored in a JSON document in partition two.
 In the third example, Cosmos DB calculates the Hash of partition key value 'Islamabad' and stores the JSON document in partition three.
 'Quetta' goes to partition two.
