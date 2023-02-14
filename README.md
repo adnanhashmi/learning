@@ -4,6 +4,8 @@
 
 [Azure Cosmos DB](https://github.com/adnanhashmi/learning/tree/main/cosmosdb)
 
-Azure Databricks
+[Azure Cognitive Services](https://github.com/adnanhashmi/learning/tree/main/cogsvcs)
 
-Azure Machine Learning
+[Azure Databricks](https://github.com/adnanhashmi/learning/tree/main/databricks)
+
+[Azure Machine Learning](https://github.com/adnanhashmi/learning/tree/main/aml)
