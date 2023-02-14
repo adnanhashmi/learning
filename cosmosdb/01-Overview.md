@@ -3,13 +3,18 @@
 ## Transcript
 
 Welcome to this overview of Azure Cosmos DB.
+
 A typical web application comprises of web pages which access a database. Regardless of what the environment is, the database requires manual maintenance. Also, developers create additional technical capabilities for caching data, partitioning tables, indexing the records, geo replication, disaster recovery, analytics, encryption, and security.
+
 Azure Cosmos DB is like any other database, but all the capabilities I mentioned are already inclded in the database and do not need to be re-created.  
+
 Let's take a closer look at the Cosmos DB platform. 
+
 A database can have three workloads.
 The Operational workload stores transactional data also known as Online Transactional Processing or OLTP from an application to a database.
 An Analytical database stores analytical or reporting data also known as Online Analytical Processing or OLAP that surface insights and predictions from machine learning models.
 Lastly, IoT devices send Stearming data to a database that can then be used to generate insights and machine learning predictions.
+
 There are different examples for each database workload. However, you will notice that Cosmos DB is mentioned in each of the three categories. That means that Cosmos DB can be used for any type of database work, and that is a huge advantage that Cosmos DB has over other database products.
 Which essentially means that Cosmos DB can be used for every database workload.
 When you use any database, you get a server where you can create one or more databases.
