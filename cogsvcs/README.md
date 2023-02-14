@@ -1,6 +1,6 @@
 # Azure Cognitive Services
 
-1. Overview ([Video](https://youtu.be/WMKvBAPdhJQ) | [Transcript](https://github.com/adnanhashmi/learning/blob/main/cogsvcs/01-Overview.md) | [Slides](https://github.com/adnanhashmi/learning/blob/main/cogsvcs/01-Overview.pdf))
+1. Overview (Video | Transcript | Slides)
 2. Processing Utterences using the Speech API (Video | Transcript | Slides)
 3. Natural Language Processing using the Language API (Video | Transcript | Slides)
 4. Using the Vision API for images (Video | Transcript | Slides)
