@@ -2,8 +2,8 @@
 
 ### Overview
 
-Video: (https://youtu.be/WMKvBAPdhJQ)
+Video: [YouTube](https://youtu.be/WMKvBAPdhJQ)
 
-Slides: (https://github.com/adnanhashmi/learning/blob/main/synapse/01-Overview.pdf)
+Slides: [GitHub](https://github.com/adnanhashmi/learning/blob/main/synapse/01-Overview.pdf)
 
-Transcript: (https://github.com/adnanhashmi/learning/blob/main/synapse/01-Overview.md)
+Transcript: [GitHub](https://github.com/adnanhashmi/learning/blob/main/synapse/01-Overview.md)
