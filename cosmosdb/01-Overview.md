@@ -6,7 +6,7 @@ Welcome to this overview of Azure Cosmos DB.
 
 A typical web application comprises of web pages which access a database. Regardless of what the environment is, the database requires manual maintenance. Also, developers create additional technical capabilities for caching data, partitioning tables, indexing the records, geo replication, disaster recovery, analytics, encryption, and security.
 
-Azure Cosmos DB is like any other database, but all the capabilities I mentioned are already inclided in the database and do not need to be re-created.  
+Azure Cosmos DB is like any other database, but all the capabilities I mentioned are already included in the database and do not need to be re-created.  
 
 Let's take a closer look at the Cosmos DB platform. 
 
