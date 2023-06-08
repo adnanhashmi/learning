@@ -1,6 +1,6 @@
 # Free Learning Resources
 
-[Azure Synapse Analytics](https://github.com/adnanhashmi/learning/tree/main/synapse)
+[Fabric](https://github.com/adnanhashmi/learning/tree/main/fabric)
 
 [Azure Cosmos DB](https://github.com/adnanhashmi/learning/tree/main/cosmosdb)
 
