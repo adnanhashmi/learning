@@ -2,6 +2,8 @@
 
 [Microsoft Fabric](https://github.com/adnanhashmi/learning/tree/main/fabric)
 
+[Azure OpenAI](https://github.com/adnanhashmi/learning/tree/main/openai)
+
 [Azure Cosmos DB](https://github.com/adnanhashmi/learning/tree/main/cosmosdb)
 
 [Azure Cognitive Services](https://github.com/adnanhashmi/learning/tree/main/cogsvcs)
