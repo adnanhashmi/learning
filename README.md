@@ -1,5 +1,7 @@
 # Free Learning Resources
 
+(New content is constantly added to the page. If you are unable to find what you were looking for, please check back later.)
+
 [Microsoft Fabric](https://github.com/adnanhashmi/learning/tree/main/fabric)
 
 [Azure OpenAI](https://github.com/adnanhashmi/learning/tree/main/openai)
