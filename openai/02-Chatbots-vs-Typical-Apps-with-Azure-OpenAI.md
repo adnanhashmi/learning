@@ -1,4 +1,4 @@
-# Chatbots versus typical Apps with Azure OpenAI [2/3]
+# Chatbots versus Typical Apps with Azure OpenAI [2/3]
 
 ## Transcript
 
