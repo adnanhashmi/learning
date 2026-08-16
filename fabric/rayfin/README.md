@@ -14,7 +14,7 @@ The initial course outline was generated using OpenAI ChatGPT with the following
 
 ---
 
-> Active Contents' Outline/Hyperlinks
+> Outline
 
 
 
