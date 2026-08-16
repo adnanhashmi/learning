@@ -1,4 +1,4 @@
-![Rayfin Course](images/_COVER.png)
+![Rayfin Course](images/_MISC.png)
 
 [https://pkstn.co/Rayfin](https://pkstn.co/Rayfin)
 
