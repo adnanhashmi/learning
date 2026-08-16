@@ -1,5 +1,6 @@
-[https://pkstn.co/Rayfin](https://pkstn.co/Rayfin)
+![Rayfin Course](images/_COVER.png)
 
+[https://pkstn.co/Rayfin](https://pkstn.co/Rayfin)
 
 > [!NOTE]
 > Outline has undergone several revisions after it was first generated using AI.
@@ -14,8 +15,4 @@ The initial course outline was generated using OpenAI ChatGPT with the following
 
 ---
 
-> Outline
-
-
-
----
+[View Course Outline](OUTLINE.md)
