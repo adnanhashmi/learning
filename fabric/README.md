@@ -6,4 +6,4 @@
 
 # Rayfin
 
-[Course] Fabric App Development - [GitHub Link](https://github.com/adnanhashmi/learning/tree/main/fabric/rayfin)
+[Course] Fabric App Development - [GitHub Link](https://github.com/adnanhashmi/learning/blob/main/fabric/rayfin/OUTLINE.md)
