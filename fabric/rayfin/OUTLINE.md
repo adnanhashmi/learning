@@ -1,4 +1,4 @@
-![Rayfin Course](rayfin/images/_COVER.png)
+![Rayfin Course](images/_COVER.png)
 
 [README.md](README.md)
 
