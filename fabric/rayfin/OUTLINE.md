@@ -29,7 +29,7 @@
 **HOW:**
 <small>`Explanation of the lifecycle from TypeScript source code to a deployed Fabric App.`</small>
 
-[Video F.1.2 — Understanding Rayfin](#)
+[Video F.1.2: Understanding Rayfin](#)
 
 **WHY**
 <small>`Reduction of custom development efforts for Fabric backend using Rayfin.`</small>
@@ -40,7 +40,18 @@
 **HOW**
 <small>`Traceing TypeScript entity through schema generation, API exposure, client access, and eventual deployment.`</small>
 
-[Video 1.3 — Fabric App Architecture](#)
+[Video F.1.3: Overview of Gwadar Port Corporation (GPC) and PakTrax](#)
+
+**WHY**
+<small>`Using a true-to-life case study to create a Fabric App using Rayfin.`</small>
+
+**WHAT**
+<small>`A high-level view of a shipment port authority in Gwadar (Pakistan) that handles inbound and outbound cargo transfers.`</small>
+
+**HOW**
+<small>`Designing an architecture and OLAP Dasboard using Rayfin.`</small>
+
+[Video F.1.4: Fabric App Architecture](#)
 
 **WHY**
 <small>`Developing a logical model of the complete application stack before writing code.`</small>
@@ -51,7 +62,7 @@
 **HOW**
 <small>`Mapping a web browser request through the Fabric App endpoint to its backend services.`</small>
 
-[Video 1.4 — Fabric Apps versus Traditional Application Development](#)
+[Video F.1.5: Fabric Apps versus Traditional Application Development](#)
 
 **WHY**
 <small>`Identifying the process responsibilities Fabric Apps remove or simplify.`</small>
@@ -61,6 +72,5 @@
 
 **HOW**
 <small>`Mapping conventional application tiers to equivalent Fabric Apps services.`</small>
-
 
 ---
