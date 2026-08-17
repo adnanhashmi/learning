@@ -4,12 +4,63 @@
 
 # Microsoft Fabric App Development using Rayfin
 
-**WHY:** To focus on imparting knowledge for creation of Fabric Apps using Rayfin and VS Code.
+**WHY:** `To focus on imparting knowledge for creation of Fabric Apps using Rayfin and VS Code.`
 
-**WHAT:** Fast-paced course that focuses on generative AI and Rayfin to create Fabric Apps to deliver Microsoft Fabric analytics solutions (OLAP) to end-users.
+**WHAT:** `Fast-paced course that focuses on generative AI and Rayfin to create Fabric Apps to deliver Microsoft Fabric analytics solutions (OLAP) to end-users.`
 
-**HOW:** Short videos ranging from a few mintues long to a maximum of 15 minutes (when necessary).
+**HOW:** `Short videos ranging from a few mintues long to a maximum of 15 minutes (when necessary).`
 
-**WHO:** Fabric developers, solution architects, data engineers, full-stack developers, and technical professionals already familiar with Microsoft Fabric and TypeScript.
+**WHO:** `Fabric developers, solution architects, data engineers, full-stack developers, and technical professionals already familiar with Microsoft Fabric and TypeScript.`
+
+---
+[Video 0: About this course...](#)
+
+# Foundation
+## Module F.1: Fabric Apps and Rayfin Fundamentals
+
+[Video F.1.1: Introduction to Microsoft Fabric Apps](#)
+
+**WHY:**
+<small>`Reasons for creating Fabric Apps and where application development fits alongside Fabric's analytics and data workloads.`</small>
+
+**WHAT:**
+<small>`High-level view of Fabric Apps architecture, managed application services, Fabric workspace integration, and the relationship between application and analytical workloads.`</small>
+
+**HOW:**
+<small>`Explanation of the lifecycle from TypeScript source code to a deployed Fabric App.`</small>
+
+[Video F.1.2 — Understanding Rayfin](#)
+
+**WHY**
+<small>`Reduction of custom development efforts for Fabric backend using Rayfin.`</small>
+
+**WHAT**
+<small>`Rayfin SDK, Rayfin CLI, data models, generated APIs, managed database, authentication, storage, and hosting.`</small>
+
+**HOW**
+<small>`Traceing TypeScript entity through schema generation, API exposure, client access, and eventual deployment.`</small>
+
+[Video 1.3 — Fabric App Architecture](#)
+
+**WHY**
+<small>`Developing a logical model of the complete application stack before writing code.`</small>
+
+**WHAT**
+<small>`Frontend, Rayfin client, GraphQL API, authentication, SQL database in Fabric, storage, static hosting, and Fabric workspace.`</small>
+
+**HOW**
+<small>`Mapping a web browser request through the Fabric App endpoint to its backend services.`</small>
+
+[Video 1.4 — Fabric Apps versus Traditional Application Development](#)
+
+**WHY**
+<small>`Identifying the process responsibilities Fabric Apps remove or simplify.`</small>
+
+**WHAT**
+<small>`Comparison of external databases, REST/GraphQL services, authentication, hosting, and infrastructure with Rayfin's managed approach.`</small>
+
+**HOW**
+<small>`Mapping conventional application tiers to equivalent Fabric Apps services.`</small>
+
 
 ---
