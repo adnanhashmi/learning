@@ -2,7 +2,7 @@
 
 [**View Course Outline**](OUTLINE.md)
 
-[https://pkstn.co/Rayfin](https://pkstn.co/Rayfin)
+[https://pkstn.co/Rayfin](https://pkstn.co/Rayfin) `Short URL for this page`
 
 > [!NOTE]
 > Outline has undergone several revisions after it was first generated using AI.
