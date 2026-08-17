@@ -13,12 +13,12 @@
 **WHO:** `Fabric developers, solution architects, data engineers, full-stack developers, and technical professionals already familiar with Microsoft Fabric and TypeScript.`
 
 ---
-[Video 0: About this course...](#)
+<mark>[Video 0: About this course...](#)</mark>
 
 # Foundation
 ## Module F.1: Fabric Apps and Rayfin Fundamentals
 
-[Video F.1.1: Introduction to Microsoft Fabric Apps](#)
+<mark>[Video F.1.1: Introduction to Microsoft Fabric Apps](#)</mark>
 
 **WHY:**
 <small>`Reasons for creating Fabric Apps and where application development fits alongside Fabric's analytics and data workloads.`</small>
@@ -29,7 +29,7 @@
 **HOW:**
 <small>`Explanation of the lifecycle from TypeScript source code to a deployed Fabric App.`</small>
 
-[Video F.1.2: Understanding Rayfin](#)
+<mark>[Video F.1.2: Understanding Rayfin](#)</mark>
 
 **WHY**
 <small>`Reduction of custom development efforts for Fabric backend using Rayfin.`</small>
@@ -40,7 +40,7 @@
 **HOW**
 <small>`Traceing TypeScript entity through schema generation, API exposure, client access, and eventual deployment.`</small>
 
-[Video F.1.3: Overview of Gwadar Port Corporation (GPC) and PakTrax](#)
+[Video F.1.3: Overview of Gwadar Port Corporation (GPC) and PakTrax](#)</mark>
 
 **WHY**
 <small>`Using a true-to-life case study to create a Fabric App using Rayfin.`</small>
@@ -51,7 +51,7 @@
 **HOW**
 <small>`Designing an architecture and OLAP Dasboard using Rayfin.`</small>
 
-[Video F.1.4: Fabric App Architecture](#)
+<mark>[Video F.1.4: Fabric App Architecture](#)</mark>
 
 **WHY**
 <small>`Developing a logical model of the complete application stack before writing code.`</small>
@@ -62,7 +62,7 @@
 **HOW**
 <small>`Mapping a web browser request through the Fabric App endpoint to its backend services.`</small>
 
-[Video F.1.5: Fabric Apps versus Traditional Application Development](#)
+<mark>[Video F.1.5: Fabric Apps versus Traditional Application Development](#)</mark>
 
 **WHY**
 <small>`Identifying the process responsibilities Fabric Apps remove or simplify.`</small>
