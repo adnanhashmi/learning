@@ -1,8 +1,10 @@
 ![Rayfin Course](images/_MISC.png)
 
-[**View Course Outline**](OUTLINE.md)
+<mark>[**View Course Outline**](OUTLINE.md)</mark>
 
 [https://pkstn.co/Rayfin](https://pkstn.co/Rayfin) `Short URL for this page`
+
+[https://pkstn.co/Adnan](https://pkstn.co/Adnan) `Author X/Twitter`
 
 > [!NOTE]
 > Outline has undergone several revisions after it was first generated using AI.
