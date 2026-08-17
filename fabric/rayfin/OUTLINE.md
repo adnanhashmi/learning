@@ -40,7 +40,7 @@
 **HOW**
 <small>`Traceing TypeScript entity through schema generation, API exposure, client access, and eventual deployment.`</small>
 
-[Video F.1.3: Overview of Gwadar Port Corporation (GPC) and PakTrax](#)</mark>
+<mark>[Video F.1.3: Overview of Gwadar Port Corporation (GPC) and PakTrax](#)</mark>
 
 **WHY**
 <small>`Using a true-to-life case study to create a Fabric App using Rayfin.`</small>
