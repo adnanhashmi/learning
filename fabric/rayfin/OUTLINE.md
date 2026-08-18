@@ -4,6 +4,8 @@
 
 # Microsoft Fabric App Development using Rayfin
 
+*`Outline/content to change often.`*
+
 **WHY:** `To focus on imparting knowledge for creation of Fabric Apps using Rayfin and VS Code.`
 
 **WHAT:** `Fast-paced course that focuses on generative AI and Rayfin to create Fabric Apps to deliver Microsoft Fabric analytics solutions (OLAP) to end-users.`
