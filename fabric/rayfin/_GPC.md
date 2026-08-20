@@ -1,6 +1,6 @@
-# Gwadar Port Corporation (GPC)
-
 <mark>[**View Course Outline**](OUTLINE.md)</mark>
+
+# Gwadar Port Corporation (GPC)
 
 ![GPC Flow](images/_GPC.png)
 
@@ -12,3 +12,5 @@ Gwadar Port Corporation (GPC) is a fictitious shipment authority that manages tr
 
 ## HOW
 Bulk of GPC business aspects are handled inside Microsoft Fabric and the data is reported using Microsoft Fabric and [PakTrax](_PakTrax.md).
+
+<mark>[**View Course Outline**](OUTLINE.md)</mark>
