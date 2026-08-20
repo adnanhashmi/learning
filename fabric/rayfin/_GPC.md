@@ -1,5 +1,7 @@
 # Gwadar Port Corporation (GPC)
 
+<mark>[**View Course Outline**](OUTLINE.md)</mark>
+
 ![GPC Flow](images/_GPC.png)
 
 ## WHY
