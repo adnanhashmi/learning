@@ -1,3 +1,5 @@
+<mark>[**View Course Outline**](OUTLINE.md)</mark>
+
 # PakTrax
 
 ![PakTrax Flow](images/_PakTrax.png)
@@ -14,3 +16,5 @@ Code generation for the Fabric App results in TypeScript (by AI that uses GitHub
 
 ## HOW
 Rayfin in VS Code generates the TypeScript code used by the PakTrax which is further refined by a developer to incorporate business requirements. Once the application is ready to be rolled-out to users, it is deployed through a command issued in the VS Code Terminal window.
+
+<mark>[**View Course Outline**](OUTLINE.md)</mark>
