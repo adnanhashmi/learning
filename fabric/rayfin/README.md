@@ -6,6 +6,8 @@
 
 [https://pkstn.co/Adnan](https://pkstn.co/Adnan) `Author X/Twitter`
 
+[GPC](_GPC.md) `Gwadar Port Corporation (Example Org)`
+
 > [!NOTE]
 > Outline has undergone several revisions after it was first generated using AI.
 
