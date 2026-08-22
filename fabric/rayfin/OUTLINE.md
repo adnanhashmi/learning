@@ -16,6 +16,7 @@
 
 ---
 <mark>[Video 0: About this course...](https://youtu.be/1dceEH7kouo)</mark>
+<br /><mark>[[Slides](https://github.com/adnanhashmi/learning/blob/main/fabric/rayfin/slides/00-Rayfin.pdf)]</mark>
 
 # Foundation
 ## Module F.1: Fabric Apps and Rayfin Fundamentals
