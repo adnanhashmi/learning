@@ -21,7 +21,7 @@
 ## Module F.1: Fabric Apps and Rayfin Fundamentals
 
 <mark>[Video F.1.1: Introduction to Microsoft Fabric Apps](https://youtu.be/VgqhLe3RJdY)</mark>
-<br /><mark>[Slides | Notes | Obsidian Markdown]</mark>
+<br /><mark>[[Slides](/slides/01-FabricApps.pdf) | Notes | Obsidian Markdown]</mark>
 
 **WHY:**
 <small>`Reasons for creating Fabric Apps and where application development fits alongside Fabric's analytics and data workloads.`</small>
