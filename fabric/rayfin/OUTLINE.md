@@ -15,12 +15,12 @@
 **WHO:** `Fabric developers, solution architects, data engineers, full-stack developers, and technical professionals already familiar with Microsoft Fabric and TypeScript.`
 
 ---
-<mark>[Video 0: About this course...](#)</mark>
+<mark>[Video 0: About this course...](https://youtu.be/VgqhLe3RJdY)</mark>
 
 # Foundation
 ## Module F.1: Fabric Apps and Rayfin Fundamentals
 
-<mark>[Video F.1.1: Introduction to Microsoft Fabric Apps](#)</mark>
+<mark>[Video F.1.1: Introduction to Microsoft Fabric Apps](https://youtu.be/VgqhLe3RJdY)</mark>
 <br /><mark>[Slides | Notes | Obsidian Markdown]</mark>
 
 **WHY:**
