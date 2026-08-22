@@ -4,7 +4,7 @@
 
 [https://pkstn.co/Rayfin](https://pkstn.co/Rayfin) `Short URL for this page`
 
-[https://pkstn.co/Adnan](https://pkstn.co/Adnan) `Author X/Twitter`
+[https://www.youtube.com/playlist?list=PLRUijDzc8MGQ](https://www.youtube.com/playlist?list=PLRUijDzc8MGQ) `YouTube Playlist`
 
 [GPC](_GPC.md) `Gwadar Port Corporation (Example Org)`
 
