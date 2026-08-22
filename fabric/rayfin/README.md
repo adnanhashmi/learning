@@ -1,6 +1,6 @@
 ![Rayfin Course](images/_MISC.png)
 
-<mark>[**View Course Outline**](OUTLINE.md)</mark>
+<mark>[**View Course Outline/Contents**](OUTLINE.md)</mark>
 
 [https://pkstn.co/Rayfin](https://pkstn.co/Rayfin) `Short URL for this page`
 
