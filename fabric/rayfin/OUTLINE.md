@@ -81,4 +81,16 @@
 **HOW**
 <small>`Mapping conventional application tiers to equivalent Fabric Apps services.`</small>
 
+<mark>[Video F.1.6: Rayfin Fabricator](#)</mark>
+<br /><mark>[Slides | Transcription | Obsidian Notes]</mark>
+
+**WHY**
+<small>`TODO`</small>
+
+**WHAT**
+<small>`TODO`</small>
+
+**HOW**
+<small>`TODO`</small>
+
 ---
