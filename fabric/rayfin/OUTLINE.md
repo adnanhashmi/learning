@@ -43,7 +43,7 @@
 <small>`Rayfin SDK, Rayfin CLI, data models, generated APIs, managed database, authentication, storage, and hosting.`</small>
 
 **HOW**
-<small>`Traceing TypeScript entity through schema generation, API exposure, client access, and eventual deployment.`</small>
+<small>`Tracing TypeScript entity through schema generation, API exposure, client access, and eventual deployment.`</small>
 
 <mark>[Video F.1.3: Overview of Gwadar Port Corporation (GPC) and PakTrax](#)</mark>
 <br /><mark>[Slides | Notes | Obsidian Markdown]</mark>
