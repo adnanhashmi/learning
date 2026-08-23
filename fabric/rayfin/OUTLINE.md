@@ -16,13 +16,13 @@
 
 ---
 <mark>[Video 0: About this course...](https://youtu.be/1dceEH7kouo)</mark>
-<br /><mark>[[Slides](https://github.com/adnanhashmi/learning/blob/main/fabric/rayfin/slides/00-Rayfin.pdf)]</mark>
+<br /><mark>[[Slides](https://github.com/adnanhashmi/learning/blob/main/fabric/rayfin/slides/00-Rayfin.pdf) | [Transcription](https://github.com/adnanhashmi/learning/blob/main/fabric/rayfin/transcription/00-Transcript.md)]</mark>
 
 # Foundation
 ## Module F.1: Fabric Apps and Rayfin Fundamentals
 
 <mark>[Video F.1.1: Introduction to Microsoft Fabric Apps](https://youtu.be/VgqhLe3RJdY)</mark>
-<br /><mark>[[Slides](https://github.com/adnanhashmi/learning/blob/main/fabric/rayfin/slides/01-FabricApps.pdf) | Transcription | Obsidian Notes]</mark>
+<br /><mark>[[Slides](https://github.com/adnanhashmi/learning/blob/main/fabric/rayfin/slides/01-FabricApps.pdf) | [Transcription](https://github.com/adnanhashmi/learning/blob/main/fabric/rayfin/transcription/01-Transcript.md) | Obsidian Notes]</mark>
 
 **WHY:**
 <small>`Reasons for creating Fabric Apps and where application development fits alongside Fabric's analytics and data workloads.`</small>
