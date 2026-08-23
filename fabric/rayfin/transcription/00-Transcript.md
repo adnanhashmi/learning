@@ -1,4 +1,4 @@
-# Transcript
+# Video 0: About this course...
 
 The content of this course is primarily spread over multiple sections: Foundation, Beginner, Intermediate, and Advanced.
 
