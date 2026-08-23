@@ -22,7 +22,7 @@
 ## Module F.1: Fabric Apps and Rayfin Fundamentals
 
 <mark>[Video F.1.1: Introduction to Microsoft Fabric Apps](https://youtu.be/VgqhLe3RJdY)</mark>
-<br /><mark>[[Slides](https://github.com/adnanhashmi/learning/blob/main/fabric/rayfin/slides/01-FabricApps.pdf) | Notes | Obsidian Markdown]</mark>
+<br /><mark>[[Slides](https://github.com/adnanhashmi/learning/blob/main/fabric/rayfin/slides/01-FabricApps.pdf) | Transcription | Obsidian Notes]</mark>
 
 **WHY:**
 <small>`Reasons for creating Fabric Apps and where application development fits alongside Fabric's analytics and data workloads.`</small>
@@ -34,7 +34,7 @@
 <small>`Explanation of the lifecycle from TypeScript source code to a deployed Fabric App.`</small>
 
 <mark>[Video F.1.2: Understanding Rayfin](#)</mark>
-<br /><mark>[Slides | Notes | Obsidian Markdown]</mark>
+<br /><mark>[Slides | Transcription | Obsidian Notes]</mark>
 
 **WHY**
 <small>`Reduction of custom development efforts for Fabric backend using Rayfin.`</small>
@@ -46,7 +46,7 @@
 <small>`Tracing TypeScript entity through schema generation, API exposure, client access, and eventual deployment.`</small>
 
 <mark>[Video F.1.3: Overview of Gwadar Port Corporation (GPC) and PakTrax](#)</mark>
-<br /><mark>[Slides | Notes | Obsidian Markdown]</mark>
+<br /><mark>[Slides | Transcription | Obsidian Notes]</mark>
 
 **WHY**
 <small>`Using a true-to-life case study to create a Fabric App using Rayfin.`</small>
@@ -58,7 +58,7 @@
 <small>`Designing an architecture and OLAP Dasboard using Rayfin.`</small>
 
 <mark>[Video F.1.4: Fabric App Architecture](#)</mark>
-<br /><mark>[Slides | Notes | Obsidian Markdown]</mark>
+<br /><mark>[Slides | Transcription | Obsidian Notes]</mark>
 
 **WHY**
 <small>`Developing a logical model of the complete application stack before writing code.`</small>
@@ -70,7 +70,7 @@
 <small>`Mapping a web browser request through the Fabric App endpoint to its backend services.`</small>
 
 <mark>[Video F.1.5: Fabric Apps versus Traditional Application Development](#)</mark>
-<br /><mark>[Slides | Notes | Obsidian Markdown]</mark>
+<br /><mark>[Slides | Transcription | Obsidian Notes]</mark>
 
 **WHY**
 <small>`Identifying the process responsibilities Fabric Apps remove or simplify.`</small>
