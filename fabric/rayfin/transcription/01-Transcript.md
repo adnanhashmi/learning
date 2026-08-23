@@ -1,4 +1,4 @@
-# Transcript
+# Introduction to Microsoft Fabric Apps
 
 Hello and welcome.
 
