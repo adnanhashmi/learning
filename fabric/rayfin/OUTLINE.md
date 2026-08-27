@@ -15,6 +15,17 @@
 **WHO:** `Fabric developers, solution architects, data engineers, full-stack developers, and technical professionals already familiar with Microsoft Fabric and TypeScript.`
 
 ---
+
+<mark>[Video -1: Learning using Zettelkasten & Obsidian](#)</mark>
+<br /><mark>[[Slides](#) | [Transcription](#)]</mark>
+
+**WHY:** `Enable learners to use a common framework for learning something that they can also revisit at a later stage.`
+
+**WHAT:** `Allow creation of information and notes that is small to consume, assists in recall, and requires minimal or no changes over-time.`
+
+**HOW:** `Creation of easily consumable notes that are quick to put together, easy to share with others, and can be used by humans and LLMs alike.`
+
+---
 <mark>[Video 0: About this course...](https://youtu.be/1dceEH7kouo)</mark>
 <br /><mark>[[Slides](https://github.com/adnanhashmi/learning/blob/main/fabric/rayfin/slides/00-Rayfin.pdf) | [Transcription](https://github.com/adnanhashmi/learning/blob/main/fabric/rayfin/transcription/00-Transcript.md)]</mark>
 
