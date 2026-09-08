@@ -35,7 +35,7 @@
 <small>`Explanation of the lifecycle from TypeScript source code to a deployed Fabric App.`</small>
 
 <mark>[Video F.1.2: Understanding Rayfin](#)</mark>
-<br /><mark>[Slides | Transcription | Obsidian Notes]</mark>
+<br /><mark>[[Slides](https://github.com/adnanhashmi/learning/blob/main/fabric/rayfin/slides/02-UnderstandingRayfin.pdf) | Transcription | Obsidian Notes]</mark>
 
 **WHY**
 <small>`Reduction of custom development efforts for Fabric backend using Rayfin.`</small>
@@ -46,8 +46,8 @@
 **HOW**
 <small>`Tracing TypeScript entity through schema generation, API exposure, client access, and eventual deployment.`</small>
 
-<mark>[Video F.1.3: Overview of Gwadar Port Corporation (GPC) and PakTrax](#)</mark>
-<br /><mark>[Slides | Transcription | Obsidian Notes]</mark>
+<mark>[Video F.1.3: Overview of Gwadar Port Corporation (GPC) and PakTrax](https://youtu.be/wGEwNwZ8FVo)</mark>
+<br /><mark>[[Slides](https://github.com/adnanhashmi/learning/blob/main/fabric/rayfin/slides/03-GPC-PakTrax.pdf) | [Transcription](https://github.com/adnanhashmi/learning/blob/main/fabric/rayfin/transcription/03-Transcript.md) | Obsidian Notes]</mark>
 
 **WHY**
 <small>`Using a true-to-life case study to create a Fabric App using Rayfin.`</small>
@@ -58,8 +58,8 @@
 **HOW**
 <small>`Designing an architecture and OLAP Dasboard using Rayfin.`</small>
 
-<mark>[Video F.1.4: Fabric App Architecture](#)</mark>
-<br /><mark>[Slides | Transcription | Obsidian Notes]</mark>
+<mark>[Video F.1.4: Fabric App Architecture](https://youtu.be/Uokof-_i3ZY)</mark>
+<br /><mark>[[Slides](https://github.com/adnanhashmi/learning/blob/main/fabric/rayfin/slides/04-FabricApp-Architecture.pdf) | [Transcription](https://github.com/adnanhashmi/learning/blob/main/fabric/rayfin/transcription/04-Transcript.md) | Obsidian Notes]</mark>
 
 **WHY**
 <small>`Developing a logical model of the complete application stack before writing code.`</small>
