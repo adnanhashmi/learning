@@ -86,12 +86,12 @@
 <br /><mark>[Slides | Transcription | Obsidian Notes]</mark>
 
 **WHY**
-<small>`TODO`</small>
+<small>`Need to simplify Rayfin development by unifying authoring, preview, validation, deployment, and project management.`</small>
 
 **WHAT**
-<small>`TODO`</small>
+<small>`Open-source desktop workbench integrating Copilot, Git, editing, preview, Advisor, and Rayfin tooling.`</small>
 
 **HOW**
-<small>`TODO`</small>
+<small>`Orchestration of Copilot, project files, Git, preview, and Rayfin CLI for Fabric deployment.`</small>
 
 ---
