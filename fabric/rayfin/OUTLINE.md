@@ -34,8 +34,8 @@
 **HOW:**
 <small>`Explanation of the lifecycle from TypeScript source code to a deployed Fabric App.`</small>
 
-<mark>[Video F.1.2: Understanding Rayfin](#)</mark>
-<br /><mark>[[Slides](https://github.com/adnanhashmi/learning/blob/main/fabric/rayfin/slides/02-UnderstandingRayfin.pdf) | Transcription | Obsidian Notes]</mark>
+<mark>[Video F.1.2: Understanding Rayfin](https://youtu.be/wbHNEI_XHTA)</mark>
+<br /><mark>[[Slides](https://github.com/adnanhashmi/learning/blob/main/fabric/rayfin/slides/02-UnderstandingRayfin.pdf) | [Transcription](https://github.com/adnanhashmi/learning/blob/main/fabric/rayfin/transcription/02-Transcript.md) | Obsidian Notes]</mark>
 
 **WHY**
 <small>`Reduction of custom development efforts for Fabric backend using Rayfin.`</small>
