@@ -83,7 +83,7 @@
 <small>`Mapping conventional application tiers to equivalent Fabric Apps services.`</small>
 
 <mark>[Video F.1.6: Rayfin Fabricator](#)</mark>
-<br /><mark>[Slides | [Transcription](https://github.com/adnanhashmi/learning/blob/main/fabric/rayfin/transcription/06-Transcript.md) | Obsidian Notes]</mark>
+<br /><mark>[[Slides](https://github.com/adnanhashmi/learning/blob/main/fabric/rayfin/slides/06-Rayfin-Fabricator.pdf) | [Transcription](https://github.com/adnanhashmi/learning/blob/main/fabric/rayfin/transcription/06-Transcript.md) | Obsidian Notes]</mark>
 
 **WHY**
 <small>`Need to simplify Rayfin development by unifying authoring, preview, validation, deployment, and project management.`</small>
