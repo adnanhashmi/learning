@@ -48,6 +48,8 @@ Let's look at a small demo of Rayfin Fabricator.
 
 ---
 
+## Demo
+
 Developers can clone the GitHub repository, download the code, and view it in the VS Code IDE.
 To run the Raiffin Fabricator application on your computer, go to the GitHub repository in your web browser.
 Scroll-down and open up the releases page by clicking on the download link.
