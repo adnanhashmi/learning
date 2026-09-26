@@ -71,7 +71,7 @@
 <small>`Mapping a web browser request through the Fabric App endpoint to its backend services.`</small>
 
 <mark>[Video F.1.5: Fabric Apps versus Traditional Application Development](#)</mark>
-<br /><mark>[Slides | Transcription | Obsidian Notes]</mark>
+<br /><mark>[[Slides](https://github.com/adnanhashmi/learning/blob/main/fabric/rayfin/slides/05-Fabric-vs-Traditional-App-Development.pdf) | [Transcription](https://github.com/adnanhashmi/learning/blob/main/fabric/rayfin/transcription/05-Transcript.md) | Obsidian Notes]</mark>
 
 **WHY**
 <small>`Identifying the process responsibilities Fabric Apps remove or simplify.`</small>
@@ -83,7 +83,7 @@
 <small>`Mapping conventional application tiers to equivalent Fabric Apps services.`</small>
 
 <mark>[Video F.1.6: Rayfin Fabricator](#)</mark>
-<br /><mark>[Slides | Transcription | Obsidian Notes]</mark>
+<br /><mark>[Slides | [Transcription](https://github.com/adnanhashmi/learning/blob/main/fabric/rayfin/transcription/06-Transcript.md) | Obsidian Notes]</mark>
 
 **WHY**
 <small>`Need to simplify Rayfin development by unifying authoring, preview, validation, deployment, and project management.`</small>
