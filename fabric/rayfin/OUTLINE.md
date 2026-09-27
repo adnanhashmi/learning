@@ -22,4 +22,6 @@
 # Foundation
 [Module F.1: Fabric Apps and Rayfin Fundamentals](https://github.com/adnanhashmi/learning/blob/main/fabric/rayfin/F1.md)
 
+[Module F.2: Rayfin Development](https://github.com/adnanhashmi/learning/blob/main/fabric/rayfin/F2.md)
+
 ---
