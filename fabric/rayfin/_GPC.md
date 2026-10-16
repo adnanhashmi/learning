@@ -13,4 +13,8 @@ Gwadar Port Corporation (GPC) is a fictitious shipment authority that manages tr
 ## HOW
 Bulk of GPC business aspects are handled inside Microsoft Fabric and the data is reported using Microsoft Fabric and [PakTrax](_PakTrax.md).
 
+`Click to view YouTube video:`
+
+[![Video Explanation](https://img.youtube.com/vi/wGEwNwZ8FVo/0.jpg)](https://www.youtube.com/watch?v=wGEwNwZ8FVo)
+
 <mark>[**View Course Outline**](OUTLINE.md)</mark>
