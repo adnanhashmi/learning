@@ -1,0 +1,23 @@
+services:
+  rayfin-dev:
+    build: .
+    image: fabric-rayfin-dev
+    ports:
+      - "127.0.0.1:8080:8080"
+      - "127.0.0.1:3000:3000"
+    environment:
+      PASSWORD: ${PASSWORD:?Set PASSWORD in your shell or local .env file}
+      RAYFIN_API_URL: ${RAYFIN_API_URL:-}
+      RAYFIN_PUBLISHABLE_KEY: ${RAYFIN_PUBLISHABLE_KEY:-}
+    volumes:
+      - workspace:/app
+      - editor-data:/home/node/.local/share/code-server
+      - editor-config:/home/node/.config/code-server
+      - rayfin-auth:/home/node/.rayfin
+    stop_grace_period: 15s
+
+volumes:
+  workspace:
+  editor-data:
+  editor-config:
+  rayfin-auth:
