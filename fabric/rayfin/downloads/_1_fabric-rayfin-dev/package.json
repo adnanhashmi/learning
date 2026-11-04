@@ -1,0 +1,28 @@
+{
+  "name": "fabric-rayfin-dev",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Docker development environment and Node.js sample for a Fabric-hosted Rayfin backend",
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0 <25.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "check": "node --check index.js",
+    "rayfin": "rayfin"
+  },
+  "dependencies": {
+    "@microsoft/rayfin-client": "1.36.2"
+  },
+  "devDependencies": {
+    "@microsoft/rayfin-cli": "1.36.2"
+  },
+  "allowScripts": {
+    "@azure/msal-node-extensions@1.5.32": true,
+    "esbuild@0.28.1": true,
+    "keytar@7.9.0": true,
+    "protobufjs@7.6.6": true
+  }
+}
