@@ -1,0 +1,9 @@
+node_modules
+.git
+.env*
+*.env
+rayfin/.env*
+rayfin/.temp
+rayfin/.deployments.json
+*.log
+README.md

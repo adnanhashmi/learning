@@ -1,0 +1,36 @@
+{
+  "name": "fabric-rayfin-dev",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Experimental local Rayfin backend, browser editor, and Node.js development sample",
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0 <25.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "ide": "node start-container.mjs",
+    "backend:apply": "node local-backend.mjs",
+    "backend:smoke": "node backend-smoke.mjs",
+    "schema:generate": "node schema-generate.mjs",
+    "check": "node --check index.js && node --check start-container.mjs && node --check healthcheck.mjs && node --check local-backend.mjs && node --check schema-generate.mjs && node --check backend-smoke.mjs && node --check sdk-logging.mjs",
+    "rayfin": "rayfin"
+  },
+  "dependencies": {
+    "@microsoft/rayfin-client": "1.33.0",
+    "@microsoft/rayfin-core": "1.33.0",
+    "yaml": "2.8.3"
+  },
+  "devDependencies": {
+    "@microsoft/rayfin-cli": "1.33.0"
+  },
+  "allowScripts": {
+    "@azure/msal-node-extensions@1.5.32": true,
+    "esbuild@0.28.1": true,
+    "keytar@7.9.0": true,
+    "protobufjs@7.6.6": true,
+    "protobufjs@8.0.1": true,
+    "@vscode/deviceid": false
+  }
+}

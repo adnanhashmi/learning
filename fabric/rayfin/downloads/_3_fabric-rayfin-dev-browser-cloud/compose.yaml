@@ -1,0 +1,113 @@
+services:
+  rayfin-dev:
+    build: .
+    image: fabric-rayfin-dev
+    ports:
+      - "127.0.0.1:8080:8080"
+      - "127.0.0.1:3000:3000"
+    environment:
+      PASSWORD: ${PASSWORD:?Set PASSWORD in your shell or local .env file}
+      RAYFIN_BACKEND_MODE: local
+      RAYFIN_LOCAL_BACKEND_URL: http://rayfin-backend:8080
+      RAYFIN_LOCAL_STATE_FILE: /var/lib/rayfin-local/client.json
+    volumes:
+      # New workspace preserves the existing 1.36 cloud workspace volume.
+      - workspace-local:/app
+      - local-state:/var/lib/rayfin-local
+      - editor-data:/home/node/.local/share/code-server
+      - editor-config:/home/node/.config/code-server
+      - rayfin-auth:/home/node/.rayfin
+    depends_on:
+      rayfin-init:
+        condition: service_completed_successfully
+    stop_grace_period: 15s
+
+  rayfin-init:
+    build: .
+    image: fabric-rayfin-dev
+    command: ["node", "local-backend.mjs"]
+    healthcheck:
+      disable: true
+    environment:
+      RAYFIN_LOCAL_BACKEND_URL: http://rayfin-backend:8080
+      RAYFIN_LOCAL_STATE_FILE: /var/lib/rayfin-local/client.json
+    volumes:
+      - workspace-local:/app
+      - local-state:/var/lib/rayfin-local
+    depends_on:
+      rayfin-backend:
+        condition: service_healthy
+    restart: "no"
+
+  rayfin-backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    image: rayfin-local-backend:1.33.0
+    platform: linux/amd64
+    ports:
+      # This development endpoint includes management APIs. Keep it on loopback.
+      - "127.0.0.1:5168:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ConnectionStrings__DefaultConnection: "Host=admin-db;Database=RayfinDB;Username=postgres;Password=${RAYFIN_DB_PASSWORD:?Run Start-Local.ps1 first};"
+      ConnectionStrings__ProjectDBConnection_MsSql: "Server=sqlserver;Database=RayfinProjectDB;User Id=sa;Password=${RAYFIN_SQL_PASSWORD:?Run Start-Local.ps1 first};TrustServerCertificate=True;"
+      Database__SkipInitializationIfExists: "true"
+      Database__StartupRetryCount: "30"
+      Database__StartupRetryDelaySeconds: "5"
+      Auth__Enabled: "true"
+      Data__Enabled: "true"
+      Storage__Enabled: "false"
+      Auth__AsymmetricKeys__Provider: local-file
+      Auth__AsymmetricKeys__Algorithm: ES256
+      Auth__AsymmetricKeys__KeySize: "256"
+      Auth__AsymmetricKeys__LocalFile__AutoGenerateKeys: "true"
+      HOME: /root
+    volumes:
+      - backend-home:/root
+    depends_on:
+      admin-db:
+        condition: service_healthy
+      sqlserver:
+        condition: service_healthy
+
+  admin-db:
+    image: postgres:18-alpine@sha256:4da1a4828be12604092fa55311276f08f9224a74a62dcb4708bd7439e2a03911
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ${RAYFIN_DB_PASSWORD:?Run Start-Local.ps1 first}
+      POSTGRES_DB: RayfinDB
+    volumes:
+      - admin-data:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d RayfinDB"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest@sha256:49b45a911dc535e9345fbfd7101a1bd8a1e190a5f29b877ef75387a061e5fcf0
+    platform: linux/amd64
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: Developer
+      SA_PASSWORD: ${RAYFIN_SQL_PASSWORD:?Run Start-Local.ps1 first}
+    volumes:
+      - sqlserver-data:/var/opt/mssql
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P \"$$SA_PASSWORD\" -Q 'SELECT 1' -C -b"]
+      interval: 10s
+      timeout: 10s
+      start_period: 60s
+      retries: 30
+
+volumes:
+  workspace-local:
+  editor-data:
+  editor-config:
+  rayfin-auth:
+  local-state:
+  backend-home:
+  admin-data:
+  sqlserver-data:

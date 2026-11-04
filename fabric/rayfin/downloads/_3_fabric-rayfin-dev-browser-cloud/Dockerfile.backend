@@ -1,0 +1,11 @@
+# Matches the publicly available Rayfin 1.33.0 CLI/SDK release.
+FROM ghcr.io/microsoft/rayfin/webservice:cli-1.33.0@sha256:c707928a827f2f83ce094721657b991ab22f72a0c8e33bb92a173d9a705f470a
+
+# Install the health probe at build time, rather than modifying a running image.
+USER root
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends curl ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
+
+HEALTHCHECK --interval=10s --timeout=5s --start-period=120s --retries=30 \
+    CMD curl --fail --silent http://127.0.0.1:8080/healthcheck || exit 1
