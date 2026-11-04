@@ -21,7 +21,7 @@
 
 ---
 
-# Foundation
+# 0. Foundation
 
 [Module F.1: Fabric Apps and Rayfin Fundamentals](https://github.com/adnanhashmi/learning/blob/main/fabric/rayfin/F1.md)
 
@@ -31,7 +31,7 @@ Module F.3: Creating the First Fabric App
 
 ---
 
-# Beginner
+# 1. Beginner
 
 Module B.4: Rayfin Programming Model
 
@@ -45,7 +45,7 @@ Module B.8: Authentication and Authorization
 
 ---
 
-# Intermediate
+# 2. Intermediate
 
 Module I.9: Configuration and Hosting
 
@@ -55,7 +55,7 @@ Module I.11: Fabric-Native Application Architecture
 
 ---
 
-# Advanced
+# 3. Advanced
 
 Module A.12: Advanced Application Design
 
